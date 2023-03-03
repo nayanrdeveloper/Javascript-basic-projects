@@ -1,0 +1,30 @@
+body{
+    background: slategray;
+}
+
+.clock-box{
+    text-align: center;
+    align-items: center;
+    /* background: white; */
+    margin: 50px auto;
+    width: 400px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.clock-box{
+    font-size: 80px;
+    background: royalblue;
+    color: white;
+    
+}
+
+.time-text{
+    padding: 5px;
+    background: plum;
+    border-radius: 5px;
+}
+
+.time-type{
+    font-size: 50px;
+}
