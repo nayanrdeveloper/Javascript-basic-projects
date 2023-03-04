@@ -1,0 +1,54 @@
+.my-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+body{
+    background: linear-gradient(to right, rgb(198, 255, 221), rgb(251, 215, 134), rgb(247, 121, 125))red;
+}
+
+.heading{
+    text-align: center;
+}
+
+.table{
+    background: #EEEEEE;
+    border: 1px solid black;
+    width: 400px;
+    padding: 5px;
+}
+
+.table-row-heading{
+    text-align: left;
+}
+
+.input-number{
+    padding: 5px 3px;
+    border-radius: 5px;
+    border: 1px solid #034284;
+    margin: 5px 3px;
+}
+
+.table-body{
+    padding: 5px 0px;
+}
+
+.result-box{
+    width: 400px;
+}
+
+.btn{
+    padding: 5px 15px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 10px;
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+.result-box{
+    margin-top: 10px;
+}

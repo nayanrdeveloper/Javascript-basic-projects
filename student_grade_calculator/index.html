@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Grade Calculator</title>
+  </head>
+  <body>
+    <section class="my-section">
+      <h1 class="heading">Student Grade Calculator</h1>
+      <div class="container">
+        <table class="table">
+          <thead>
+            <tr class="table-row-heading">
+              <th>Subject</th>
+              <th>Obtain Mark</th>
+              <th>Total Mark</th>
+            </tr>
+          </thead>
+          <tbody class="table-body">
+            <tr class="table-row">
+              <td><input type="text" class="input-number" /></td>
+              <td><input type="number" class="input-number obtain-mark" /></td>
+              <td><input type="number" class="input-number total-mark" /></td>
+            </tr>
+            <tr class="table-row">
+              <td><input type="text" class="input-number" /></td>
+              <td><input type="number" class="input-number obtain-mark" /></td>
+              <td><input type="number" class="input-number total-mark" /></td>
+            </tr>
+            <tr class="table-row">
+              <td><input type="text" class="input-number" /></td>
+              <td><input type="number" class="input-number obtain-mark" /></td>
+              <td><input type="number" class="input-number total-mark" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <div>
+          <button class="btn">Result</button>
+          <!-- <button class="btn new-row">Add New Row</button> -->
+        </div>
+
+        <div class="result-box">
+          <div><span>Total Marks:</span><span class="total-marks">0</span></div>
+          <div>
+            <span>Obtain Marks:</span><span class="total-obtain-marks">0</span>
+          </div>
+          <div><span>Percentage:</span><span class="percentage">0%</span></div>
+          <div><span>Grade:</span><span class="grade"></span></div>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>
